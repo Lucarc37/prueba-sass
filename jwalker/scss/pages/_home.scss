@@ -1,0 +1,21 @@
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: double;
+    text-shadow: 7px 4px 5px #432818;
+    position: sticky;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+p.normal {font-variant: normal;}
+
+p.small {font-variant: small-caps;}
+
+
+h2{
+    font-family:  'Roboto', sans-serif;
+    padding: 15px 90px 15px 260px;
+    border: 10px double;
+    margin: 10px 15px 10px 15px;
+    color: rgb(13, 12, 8);
+}

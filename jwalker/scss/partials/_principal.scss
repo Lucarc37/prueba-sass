@@ -1,0 +1,40 @@
+section article{
+    background-color: rgba(255, 250, 205, 0.612);
+    text-align: center;
+    font-family:  'Tiro Devanagari Hindi', serif;
+}
+
+h3{
+    font-size: large;
+    font-family:  'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    color: (map-get($colores, "colorSecundario"))
+}
+
+h4{
+    font-size: larger;
+    font-family:  'Roboto', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+img{
+    border-radius: 1cm;
+    border: none 10px;
+}
+
+body{
+    background-color: border (map-get($colores, "colorOferta") );
+    background-image: url("../img/logo\ gold.png");
+    background-size: 600px;
+}
+
+.pagina{
+    @include flexible();
+}
